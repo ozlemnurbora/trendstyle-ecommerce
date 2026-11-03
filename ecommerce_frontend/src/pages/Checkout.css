@@ -1,0 +1,118 @@
+.checkout-wrap { 
+  max-width: 1100px; 
+  margin: 24px auto 40px; 
+  padding: 0 16px; 
+  display:flex; 
+  gap:24px; 
+}
+
+.checkout-wrap .checkout-left { flex: 1; min-width: 0; }
+.checkout-wrap .checkout-right { width: 360px; }
+
+/* >>> sadece checkout sayfasına etki etsin diye prefixledik */
+.checkout-wrap .card { 
+  background:#fff; 
+  border-radius:14px; 
+  padding:16px 18px; 
+  box-shadow:0 2px 14px rgba(10,44,93,.10); 
+  margin-bottom:16px; 
+}
+
+.checkout-wrap .card-title { 
+  font-weight:600; 
+  color:#0a2c5d; 
+  margin-bottom:10px; 
+}
+
+.checkout-wrap .empty-address { 
+  display:flex; 
+  align-items:center; 
+  justify-content:space-between; 
+  gap:12px; 
+}
+
+.checkout-wrap .select, 
+.checkout-wrap input { 
+  width:100%; 
+  padding:10px 12px; 
+  border:1px solid #e2e8f0; 
+  border-radius:10px; 
+}
+
+.checkout-wrap .mt8{ margin-top:8px; }
+.checkout-wrap .form-grid { display:flex; flex-direction:column; gap:12px; }
+.checkout-wrap .row { display:flex; gap:12px; }
+
+.checkout-wrap .summary-card { 
+  background:#fff; 
+  border-radius:14px; 
+  padding:16px 18px; 
+  box-shadow:0 2px 14px rgba(10,44,93,.10); 
+  position:sticky; 
+  top:16px; 
+}
+
+.checkout-wrap .summary-row { 
+  display:flex; 
+  align-items:center; 
+  justify-content:space-between; 
+  padding:8px 0; 
+}
+.checkout-wrap .summary-row.head { font-weight:600; color:#0a2c5d; }
+.checkout-wrap .summary-row.total { 
+  font-weight:700; 
+  font-size:18px; 
+  border-top:1px solid #eef2f7; 
+  margin-top:8px; 
+  padding-top:12px; 
+}
+
+.checkout-wrap .btn-light { 
+  background:#f1f5f9; 
+  border:1px solid #e2e8f0; 
+  border-radius:10px; 
+  padding:10px 12px; 
+  cursor:pointer; 
+}
+
+.checkout-wrap .btn-pay { 
+  width:100%; 
+  padding:12px; 
+  border-radius:12px; 
+  font-weight:600; 
+  background:#2b69a9; 
+  color:#fff; 
+  border:none; 
+  cursor:pointer; 
+  margin-top:8px; 
+}
+.checkout-wrap .btn-pay:disabled { opacity:.5; cursor:not-allowed; }
+
+/* Checkout özel adres önizleme kutusu */
+.checkout-wrap .addr-preview{
+  margin-top: 8px;
+  border: 1px solid #eef2f7;
+  border-radius: 10px;
+  padding: 12px;
+  line-height: 1.5;
+  background: #fafcff;
+  color: #0a2c5d;
+  word-break: break-word; /* uzun adreslerde taşma olmasın */
+}
+
+.checkout-wrap .addr-row{
+  display: flex;
+  gap: 8px;
+  margin: 3px 0;
+  flex-wrap: wrap;
+}
+
+.checkout-wrap .addr-row .k{
+  min-width: 110px;
+  font-weight: 600;
+  color: #334155;
+}
+
+.checkout-wrap .addr-row .v{
+  flex: 1;
+}

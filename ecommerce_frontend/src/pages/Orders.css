@@ -1,0 +1,40 @@
+.orders2-wrap{max-width:1100px;margin:24px auto 40px;padding:0 16px}
+.orders2-title{color: #0a2c5d; font-size: 28px; margin: 16px 0 8px; margin-left: 16px;}
+.orders2-empty{background:#fff;border-radius:14px;padding:18px 20px;box-shadow:0 2px 14px rgba(10,44,93,.10);color:#334155}
+
+
+.order2-card{background:#fff;border-radius:14px;margin:12px 0;box-shadow:0 2px 14px rgba(10,44,93,.10)}
+.o2-head{display:grid;grid-template-columns:1.2fr 1fr .9fr .7fr;gap:12px;align-items:center;padding:12px 16px;border-bottom:1px solid #eef2f7;background:#f8fbff;border-radius:14px 14px 0 0}
+.o2-head-k{
+  font-size:12px;
+  color:#64748b;
+  display:block;        
+  margin-bottom:6px;    
+}
+.o2-head-v{font-weight:600;color:#0a2c5d}
+.o2-total{justify-self:end;text-align:right}
+.o2-price{font-weight:800;color:#0a2c5d;white-space:nowrap}
+
+.o2-body{padding:12px 16px 14px}
+.o2-status{margin-bottom:8px}
+.o2-badge{display:inline-block;padding:6px 12px;border-radius:999px;font-size:12px;font-weight:700}
+.s-alindi{background:#e8f2ff;color:#0a2c5d}
+.s-hazirlaniyor{background:#eef2ff;color:#3730a3}
+.s-kargoda{background:#fff7ed;color:#9a3412}
+.s-tamamlandi{background:#ecfdf5;color:#065f46}
+.s-iptal{background:#fef2f2;color:#991b1b}
+.s-iade{background:#f5f3ff;color:#5b21b6}
+
+.o2-items{display:flex;flex-direction:column;gap:6px;margin-top:6px}
+.o2-item{display:grid;grid-template-columns:1fr auto auto;gap:10px;align-items:center;padding:8px 10px;border:1px solid #eef2f7;border-radius:10px;background:#fff}
+.o2-item-name{font-weight:500}
+.o2-item-meta{color:#64748b}
+.o2-item-price{margin-left:auto;font-weight:600}
+
+@media (max-width:900px){
+  .o2-head{grid-template-columns:1fr 1fr .7fr; }
+  .o2-hide-sm{display:none}
+}
+@media (max-width:600px){
+  .o2-head{grid-template-columns:1fr 1fr; }
+}

@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.page-container {
+  margin-top: 90px; /* Navbar yüksekliği kadar ayarlandı */
+  padding: 20px;
+  box-sizing: border-box;
+}
