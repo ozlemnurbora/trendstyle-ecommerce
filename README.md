@@ -31,7 +31,7 @@ If you want to run this project locally on your machine, follow these steps:
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/ozlemnurbora/trendstyle-ecommerce.git](https://github.com/ozlemnurbora/trendstyle-ecommerce.git)
+git clone https://github.com/ozlemnurbora/trendstyle-ecommerce.git
 cd trendstyle-ecommerce
 
 2. Run the Backend (Flask API)
