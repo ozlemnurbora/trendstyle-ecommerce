@@ -36,7 +36,7 @@ cd trendstyle-ecommerce
 
 2. Run the Backend (Flask API)
 Navigate to the backend folder, set up a virtual environment, and install dependencies:
-```bash
+Bash
 cd ecommerce_flask_api
 python -m venv venv
 venv\Scripts\activate
@@ -45,7 +45,8 @@ python app.py
 
 3. Run the Frontend (React)
 Open a new terminal window, navigate to the frontend folder, install packages, and start the application:
-```bash
+
+Bash
 cd ecommerce_frontend
 npm install
 npm start
