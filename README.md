@@ -36,7 +36,7 @@ cd trendstyle-ecommerce
 ```
 
 2. Run the Backend (Flask API)
-Navigate to the backend folder, set up a virtual environment, and install dependencies:
+Navigate to the backend folder, set up a virtual environment, and install dependencies automatically using the requirements file:
 ```bash
 cd ecommerce_flask_api
 python -m venv venv
