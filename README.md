@@ -33,20 +33,23 @@ If you want to run this project locally on your machine, follow these steps:
 ```bash
 git clone https://github.com/ozlemnurbora/trendstyle-ecommerce.git
 cd trendstyle-ecommerce
+```
 
 2. Run the Backend (Flask API)
 Navigate to the backend folder, set up a virtual environment, and install dependencies:
-Bash
+```bash
 cd ecommerce_flask_api
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 python app.py
+```
 
 3. Run the Frontend (React)
 Open a new terminal window, navigate to the frontend folder, install packages, and start the application:
 
-Bash
+```bash
 cd ecommerce_frontend
 npm install
 npm start
+```
